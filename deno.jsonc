@@ -1,0 +1,6 @@
+{
+  "importMap": "./import-map.json",
+  "tasks": {
+    "example": "deno run --check --allow-net --allow-hrtime _examples/server.tsx"
+  }
+}

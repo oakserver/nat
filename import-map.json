@@ -1,0 +1,14 @@
+{
+  "imports": {
+    "acorn": "https://deno.land/x/acorn@0.0.10/mod.ts",
+    "nano-jsx/core": "https://deno.land/x/nano_jsx@v0.0.30/core.ts",
+    "nano-jsx/fragment": "https://deno.land/x/nano_jsx@v0.0.30/fragment.ts",
+    "nano-jsx/helmet": "https://deno.land/x/nano_jsx@v0.0.30/components/helmet.ts",
+    "nano-jsx/ssr": "https://deno.land/x/nano_jsx@v0.0.30/ssr.ts",
+    "oak_commons/types": "https://deno.land/x/oak_commons@0.3.1/types.d.ts",
+    "std/media_types": "https://deno.land/std@0.142.0/media_types/mod.ts",
+    "twind": "https://esm.sh/twind@0.16.17?pin=v82",
+    "twind/css": "https://esm.sh/twind@0.16.17/css?pin=v82",
+    "twind/sheets": "https://esm.sh/twind@0.16.17/sheets?pin=v82"
+  }
+}
