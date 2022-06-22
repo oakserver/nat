@@ -13,10 +13,13 @@
  * import { Fragment, h, init, render, tw } from "../mod.ts";
  *
  * const router = init();
+ * const style = createStyle({
+ *   title: "text-xl",
+ * });
  *
  * const App = ({ name }: { name: string }) => (
  *   <>
- *     <div class={tw`text-xl`}>Hello {name}!</div>
+ *     <div class={style("title")}>Hello {name}!</div>
  *   </>
  * );
  *
@@ -37,3 +40,4 @@ export { css } from "twind/css";
 
 export { render } from "./handlers.ts";
 export { init } from "./init.ts";
+export { createStyle } from "./styles.ts";

@@ -1,12 +1,15 @@
 /** @jsx h */
 /** @jsxFrag Fragment */
-import { Fragment, h, init, render, tw } from "../mod.ts";
+import { createStyle, Fragment, h, init, render } from "../mod.ts";
 
 const router = init();
+const style = createStyle({
+  title: "text-xl",
+});
 
 const App = ({ name }: { name: string }) => (
   <>
-    <div class={tw`text-xl`}>Hello {name}!</div>
+    <div class={style("title")}>Hello {name}!</div>
   </>
 );
 
