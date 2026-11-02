@@ -7,7 +7,7 @@
 
 import { Router } from "acorn";
 import { type Configuration as TwindConfig, setup } from "twind";
-import { type KeyRing } from "oak_commons/types";
+import { type KeyRing } from "./types.ts";
 
 import { sheet } from "./handlers.ts";
 
